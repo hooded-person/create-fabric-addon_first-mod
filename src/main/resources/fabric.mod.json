@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "hooded_create_addon",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Hooded's Create Addon Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "hooded_person"
   ],
   "contact": {
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"

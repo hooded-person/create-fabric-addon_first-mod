@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 
 public class CreateAddonMod implements ModInitializer {
 	public static final String ID = "hooded_create_addon";
-	public static final String NAME = "Example Mod";
+	public static final String NAME = "Hooded's create addon";
 	public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
 	@Override
