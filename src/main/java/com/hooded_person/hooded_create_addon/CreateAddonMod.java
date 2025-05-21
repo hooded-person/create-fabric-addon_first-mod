@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CreateAddonMod implements ModInitializer {
-	public static final String ID = "hooded_create_addon";
+	public static final String MOD_ID = "hooded_create_addon";
 	public static final String NAME = "Hooded's create addon";
 	public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
@@ -25,6 +25,6 @@ public class CreateAddonMod implements ModInitializer {
 	}
 
 	public static ResourceLocation id(String path) {
-		return new ResourceLocation(ID, path);
+		return new ResourceLocation(MOD_ID, path);
 	}
 }
