@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hooded_create_addon",
   "version": "${version}",
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
@@ -11,15 +11,15 @@
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
   },
   "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/hooded_create_addon/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "com.hooded_person.hooded_create_addon.CreateAddonMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "hooded_create_addon.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
