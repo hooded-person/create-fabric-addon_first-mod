@@ -41,10 +41,7 @@ configurations.configureEach {
 dependencies {
 	// Setup
 	minecraft("com.mojang:minecraft:$minecraft_version")
-	mappings(loom.layered {
-		//it.officialMojangMappings { nameSyntheticMembers = false }
-		it.parchment("org.parchmentmc.data:parchment-$minecraft_version:$parchment_version@zip")
-	})
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation("net.fabricmc:fabric-loader:$fabric_loader_version")
 
 	// dependencies
