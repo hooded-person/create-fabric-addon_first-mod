@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.hooded_person.hooded_create_addon.mixin",
+  "package": "net.hooded_person.hooded_create_addon.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "net.hooded_person.hooded_create_addon.mixin.MinecraftMixin"
+    "MinecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1
