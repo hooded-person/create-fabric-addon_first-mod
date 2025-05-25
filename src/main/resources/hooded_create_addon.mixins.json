@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "MinecraftMixin"
+    "net.hooded_person.hooded_create_addon.mixin.MinecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1

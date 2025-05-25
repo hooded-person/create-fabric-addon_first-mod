@@ -1,18 +1,18 @@
-package com.hooded_person.hooded_create_addon.datagen;
+package net.hooded_person.hooded_create_addon.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.core.HolderLookup;
+import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
 
 public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
-	public ModItemTagProvider(FabricDataOutput output, CompletableFuture<HolderLookup.Provider> completableFuture) {
+	public ModItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {
 		super(output, completableFuture);
 	}
 
 	@Override
-	protected void addTags(HolderLookup.Provider provider) {
+	protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
 	}
 }

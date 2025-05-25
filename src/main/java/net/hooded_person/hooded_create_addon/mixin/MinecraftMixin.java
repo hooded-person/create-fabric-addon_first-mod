@@ -1,20 +1,19 @@
-package com.hooded_person.hooded_create_addon.mixin;
+package net.hooded_person.hooded_create_addon.mixin;
 
-import com.hooded_person.hooded_create_addon.CreateAddonMod;
+import net.hooded_person.hooded_create_addon.CreateAddonMod;
 
-import net.minecraft.client.Minecraft;
 
-import net.minecraft.client.main.GameConfig;
+import net.minecraft.client.MinecraftClient;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-@Mixin(Minecraft.class)
+@Mixin(MinecraftClient.class)
 public class MinecraftMixin {
 	@Inject(method = "<init>", at = @At("TAIL"))
-	private void example$init(GameConfig gameConfig, CallbackInfo ci) {
+	private void init(CallbackInfo ci) {
 		CreateAddonMod.LOGGER.info("Hello from {}", CreateAddonMod.NAME);
 	}
 }

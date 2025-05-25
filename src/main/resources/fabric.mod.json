@@ -15,7 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.hooded_person.hooded_create_addon.CreateAddonMod"
+      "net.hooded_person.hooded_create_addon.CreateAddonMod"
+    ],
+    "fabric-datagen": [
+      "net.hooded_person.hooded_create_addon.CreateAddonModDataGenerator"
     ]
   },
   "mixins": [

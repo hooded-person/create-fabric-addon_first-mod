@@ -1,4 +1,4 @@
-package com.hooded_person.hooded_create_addon.datagen;
+package net.hooded_person.hooded_create_addon.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;

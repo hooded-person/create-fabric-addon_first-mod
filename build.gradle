@@ -31,6 +31,12 @@ repositories {
 	maven { url = "https://maven.terraformersmc.com/releases" } // Mod Menu, EMI
 }
 
+fabricApi {
+	configureDataGeneration() {
+		client = true
+	}
+}
+
 configurations.configureEach {
 	resolutionStrategy {
 		// make sure the desired version of loader is used. Sometimes old versions are pulled in transitively.

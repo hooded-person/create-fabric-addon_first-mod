@@ -1,13 +1,8 @@
-package com.hooded_person.hooded_create_addon;
-
-import com.hooded_person.hooded_create_addon.datagen.ModBlockTagProvider;
-import com.hooded_person.hooded_create_addon.datagen.ModItemTagProvider;
-import com.hooded_person.hooded_create_addon.datagen.ModLootTableProvider;
-import com.hooded_person.hooded_create_addon.datagen.ModModelProvider;
-import com.hooded_person.hooded_create_addon.datagen.ModRecipeProvider;
+package net.hooded_person.hooded_create_addon;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.hooded_person.hooded_create_addon.datagen.*;
 
 public class CreateAddonModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
