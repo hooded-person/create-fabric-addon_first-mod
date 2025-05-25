@@ -10,6 +10,7 @@ import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
 import net.fabricmc.api.ModInitializer;
 
 
+import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +19,10 @@ public class CreateAddonMod implements ModInitializer {
 	public static final String MOD_ID = "hooded_create_addon";
 	public static final String NAME = "Hooded's create addon";
 	public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
+
+	public static Identifier id(String path) {
+		return Identifier.of(MOD_ID, path);
+	}
 
 	@Override
 	public void onInitialize() {

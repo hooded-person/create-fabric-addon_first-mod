@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 	public static final ItemGroup CREATE_ADDON_GROUP = Registry.register(Registries.ITEM_GROUP,
-			new Identifier(CreateAddonMod.MOD_ID, "create_addon"),
+			CreateAddonMod.id("create_addon"),
 			FabricItemGroup.builder().displayName(Text.translatable("itemgroup.create_addon"))
 					.icon(() -> new ItemStack(Items.BREAD))
 					.entries((displayContext, entries) -> {
