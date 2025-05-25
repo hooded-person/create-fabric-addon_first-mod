@@ -5,7 +5,6 @@ import net.hooded_person.hooded_create_addon.CreateAddonMod;
 import net.hooded_person.hooded_create_addon.block.ModBlocks;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -20,8 +19,9 @@ public class ModItemGroups {
 			FabricItemGroup.builder().displayName(Text.translatable("itemgroup.create_addon"))
 					.icon(() -> new ItemStack(Items.BREAD))
 					.entries((displayContext, entries) -> {
+						entries.add(ModItems.WEIRD_BALL);
+
 						entries.add(ModBlocks.WEIRD_BLOCK);
-						entries.add(Blocks.ACACIA_LOG);
 					})
 					.build()
 	);

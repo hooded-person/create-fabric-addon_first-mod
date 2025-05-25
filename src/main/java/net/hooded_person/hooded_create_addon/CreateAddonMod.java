@@ -1,6 +1,7 @@
 package net.hooded_person.hooded_create_addon;
 
 import net.hooded_person.hooded_create_addon.block.ModBlocks;
+import net.hooded_person.hooded_create_addon.block.entity.ModBlockEntities;
 import net.hooded_person.hooded_create_addon.item.ModItemGroups;
 import net.hooded_person.hooded_create_addon.item.ModItems;
 import com.simibubi.create.Create;
@@ -30,5 +31,7 @@ public class CreateAddonMod implements ModInitializer {
 
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+
+		ModBlockEntities.registerBlockEntites();
 	}
 }

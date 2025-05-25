@@ -1,3 +1,5 @@
 {
-  "itemgroup.create_addon": "Create Addon mod"
+  "itemgroup.create_addon": "Create Addon mod",
+  "item.hooded_create_addon.weird_ball": "Weird Ball",
+  "block.hooded_create_addon.weird_block": "Weird Block"
 }

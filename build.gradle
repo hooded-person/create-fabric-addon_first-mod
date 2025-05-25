@@ -31,6 +31,13 @@ repositories {
 	maven { url = "https://maven.terraformersmc.com/releases" } // Mod Menu, EMI
 }
 
+sourceSets.named("main") {
+	resources {
+		srcDir("src/main/generated/")
+		exclude(".cache/")
+	}
+}
+
 loom {
 	runs {
 		register("datagen") {

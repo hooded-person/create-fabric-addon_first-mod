@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "hooded_create_addon:weird_ball"
+    },
+    "M": {
+      "item": "minecraft:moss_block"
+    },
+    "R": {
+      "item": "minecraft:mangrove_roots"
+    }
+  },
+  "pattern": [
+    " B ",
+    " R ",
+    " M "
+  ],
+  "result": {
+    "item": "hooded_create_addon:weird_block"
+  },
+  "show_notification": true
+}

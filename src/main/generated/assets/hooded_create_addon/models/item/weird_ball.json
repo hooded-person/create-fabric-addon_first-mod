@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hooded_create_addon:item/weird_ball"
+  }
+}

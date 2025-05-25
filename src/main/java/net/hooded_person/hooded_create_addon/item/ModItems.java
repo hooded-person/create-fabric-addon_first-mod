@@ -1,5 +1,6 @@
 package net.hooded_person.hooded_create_addon.item;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.hooded_person.hooded_create_addon.CreateAddonMod;
 
 
@@ -12,8 +13,13 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+	public static final Item WEIRD_BALL = registerItem(
+			"weird_ball",
+			new Item(new FabricItemSettings())
+	);
+
 	private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-//		entries.add();
+		entries.add(WEIRD_BALL);
 	}
 
 	private static Item registerItem(String name, Item item) {

@@ -1,1 +1,3 @@
-// 1.20.1	2025-05-25T20:46:07.0982161	Hooded's Create Addon Mod/Recipes
+// 1.20.1	2025-05-25T21:35:28.2119491	Hooded's Create Addon Mod/Recipes
+1c76fe79e3db412913ad8b8dbeec6086a294cf1c data\hooded_create_addon\recipes\weird_block.json
+cdbebf279886055e89cc50c78436a545d215393d data\hooded_create_addon\advancements\recipes\misc\weird_block.json
